@@ -1,0 +1,484 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    border: 2px solid black;
+    background: #614fb7;
+  }
+ .home-section{
+    background-image: linear-gradient(rgb(168, 171, 195),rgba(5,8,32,0.5)),url(/images/image-1.jpeg);
+    background-position: center;
+    background-size: cover; 
+ }
+  .sec-1{
+      width: 100%;
+  }
+  #profile{
+      width:100px
+  }
+ .about{
+     height: 100%;
+ }
+ .row-1 p{
+     color: bisque;
+    font-size: 25px;
+    padding-top: 5%;
+  }
+  .row-2 p{
+    color: bisque;
+    font-size: 25px;
+    padding-top: 5%;
+  }
+  h3{
+   text-align: center;
+  
+  }
+  h4{
+    text-align: center;
+  
+  }
+  .row-1, .row-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+  .row-1 h3{
+    color:aqua;
+
+    font-size: 30px;
+  }
+  .row-2 h4{
+      color:aqua;
+    font-size: 30px;
+  
+  }
+  .row-2 ul{
+    color: bisque;
+
+      font-size: 22px;
+  }
+  .row-1 div img{
+    width: 100%;
+    height: 100vh;
+  }
+  .row-1 div:nth-child(2){
+    padding: 2%;
+  }
+  .row-2 div:first-child{
+    padding: 2%;
+  }
+  .row-2 div img{
+    width: 100%;
+    height: 100vh;
+  }
+  .sec-3{
+      height: 100%;
+  }
+  .designSlides{
+    display:none;
+  }  
+  .designSlides img{
+   vertical-align: middle;
+
+  }
+  .slideshow-container {
+   max-width: 100%;
+   position: relative;
+   margin: auto;
+  }
+
+  .slideshow-container .designSlides img{
+   width: 100%;
+  height: 180px;
+  }
+  .slideshow-container .designSlides {
+    width: 100%;
+    height: 250px; 
+  }
+  #img1{
+      height: 100%;
+  }
+  #img2{
+    height: 100%;
+}
+ #img3{
+    height: 100%;
+}
+#img4{
+  height: 100%;
+}
+  .backward, .forward{
+  width: auto;
+  cursor: pointer;
+  position:absolute;
+   top: 5%;  
+  padding: 16px;
+  margin-top: -22px;  
+  color: rgb(241, 14, 14);
+  font-weight: bold;
+  font-size: 39px;
+  transition: 0.5s ease;
+  border-radius: 0 4px 4px 0;
+  user-select: none;
+  }
+  .forward{
+   right:0;
+   border-radius: 4px 0px 0px 4px;
+  }
+  .backward:hover, .forward:hover{
+   background-color: #b6ce9f;
+   color:#fff;
+  }
+  .project{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 0;
+    font-size: 16px;
+  }
+  .project h1{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding: 0;
+    color: rgb(12, 4, 4);
+    
+  }
+  .project-col{
+    margin-top: 10px;
+    flex-basis: 48%;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: left;
+  
+  }
+  .project-col img{
+    display: inline-block;
+    width: 30%;
+    border-radius: 10px;
+  }
+  .project-col a{
+    font-size: 13px;
+  }
+  .project-col p{
+    padding: 0;
+    font-size: 12px;
+  
+  }
+  .project-col p {
+    float: right;
+   }
+   a {
+    color: #00fffb;
+  }
+  a:hover{
+    color:white;
+  }
+  .sec-3{
+    background-image: linear-gradient(rgb(168, 171, 195),rgba(5,8,32,0.9)),url(/images/image-5.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .sec-4 {
+    height:44.5%;
+   
+  }
+  
+  .sec-4 h1{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  font-weight: 900;
+  }
+  
+  .sec-4 i.fas{
+  
+    font-size: 20px;
+    padding: 20px;
+    background: none;
+    cursor:pointer;
+    border:2px solid rgb(190,190,190);
+  }
+  .sec-4 i.fab{
+    font-size: 20px;
+    padding: 20px;
+    background: none;
+    cursor:pointer;
+    border:2px solid rgb(190,190,190);
+  }
+  
+   .sec-4 p{
+    padding: 10% 25% 5% 25%;
+    text-align: center;
+  }
+  .sec-4 a {
+    padding: 10% 25% 5% 25%;
+    color: lightblue;
+  } 
+  .sec-4 a:hover{
+    color: rgb(43, 19, 219);
+  }
+
+  .container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .sec-4{
+    height:100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2%;
+    background-image: linear-gradient(to bottom right, rgb(60, 59, 61), rgba(141, 92, 155, 0.493));
+}
+  .sec-4 .container h5{
+    text-align: center;
+    font-size: 36px;
+    padding:6%;
+    color: #fff;
+  }
+  .contact-form div{
+      color:aliceblue
+  }
+  .contact-form div a{
+padding: 0%;
+
+    
+  }
+  .contact-form i.fas{
+    font-size: 20px;
+    padding: 6%;
+    background: none;
+    margin:4%;
+    cursor:pointer;
+    color:aliceblue;
+    border:2px solid rgb(190,190,190);
+  }
+  .contact-form{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 200px;
+  }
+  input{
+    padding: 10px;
+    margin-bottom: 50px;
+    width:80%;
+    background-color: rgba(245, 240, 240, 0.5);
+    border: none;
+    color:#fff;
+    outline:none;
+  }
+  input::placeholder{
+    color: #fff;
+  }
+  textarea{
+    padding: 10px;
+    margin-bottom: 50px;
+    width:80%;
+    background-color: rgb(169,169,169,0.5);
+    border: none;
+    color:#fff;
+    outline:none;
+  }
+  textarea::placeholder{
+    color: #fff;
+  }
+  .submit{
+    width:37%;
+    background: none;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 2%;
+    border:2px solid rgb(190,190,190);
+    color:rgb(190,190,190);
+  }
+
+.card-text{
+  color:#fff
+}
+@media(max-width:768px){
+  .home-section{
+    padding:3% 3% 3% 7%;
+  }
+  .sec-2 p{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .sec-2 h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .sec-2 button{
+    background-color: silver;
+    color: black;
+     padding: 3% 3%;
+    } 
+    #about-btn{
+        margin-left:1%
+    }  
+    #email-btn{
+        margin-left:5%
+    } 
+    .about{
+        height:180%
+    }
+   
+      .row-1 div img{
+        width: 100%;
+        height: 41vh;
+      }
+      .row-2 div img{
+        width: 100%;
+        height: 41vh;
+      } 
+    .row-1, .row-2{
+      grid-template-columns: repeat(1,100%);
+      grid-auto-rows: auto;
+    }
+    .row-1 div:nth-child(1){
+      order: 2;
+    }
+    .row-1 div:nth-child(2){
+      order: 1;
+    }
+    .sec-4 .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .sec-4 .submit{
+        width:60%;
+      }
+      .sec-4 .contact-form i.fas{
+        display: block;
+        width: 100%;
+        border:0px;
+        text-align: center;
+        padding-left:0px;
+      }
+      
+}
+  @media screen and (min-width:768px) and (max-width:1024px){   
+
+    .home-section{
+            height: 51%;
+         
+      }
+    .sec-1{
+        width: 100%;
+    }
+    #profile{
+        width:25%;
+        float: left;    
+        margin: 0 5% 0 0;
+        margin: left 10%;
+        margin-top: 12%;
+        margin-right: 20%;
+    }
+    #right{
+        padding: 4%;
+      }
+      #right h2{
+        font-size: 180%;
+        font-weight: 900;
+      
+      }
+      #right p{
+        font-size: 140%;
+        margin-top: 3%;
+      
+      }
+      .sec-2 button{
+        background-color: silver;
+        color: black;
+         padding: 15px 20px;
+        } 
+        #about-btn{
+            margin-left:1%
+        }  
+        #email-btn{
+            margin-left:5%
+        } 
+        .row-1 div img{
+            width: 100%;
+            height: 100vh;
+          }
+          .row-1 div:nth-child(2){
+            padding: 2%;
+          }
+          .row-2 div:first-child{
+            padding: 2%;
+          }
+          .row-2 div img{
+            width: 100%;
+            height: 100vh;
+          }
+  }
+  @media only screen and (min-width:1025px) {   
+
+    .home-section{
+            height: 44.5%;
+       
+      }
+    .sec-1{
+        width: 100%;
+    }
+    #profile{
+        width:200px;
+        float: left;    
+        margin: 0 15px 0 0;
+        margin-left:90px;
+        margin-top: 84px;
+        margin-right: 190px;
+    }
+    #right{
+        padding: 4%;
+      }
+      #right h2{
+        font-size: 42px;
+        font-weight: 900;
+      
+      }
+      #right p{
+        font-size: 140%;
+        margin-top: 3%;
+        margin-left: 32%;
+       
+      
+      }
+      .sec-2 button{
+        background-color: silver;
+        color: black;
+         padding: 15px 20px;
+        }    
+        #about-btn{
+            margin-left:29.875em
+        }  
+        #email-btn{
+            margin-left:11.875em
+        }
+        .row-1 div img{
+          width: 100%;
+          height: 50vh;
+        }
+        .row-1 div:nth-child(2){
+          padding: 2%;
+        }
+        .row-2 div:first-child{
+          padding: 2%;
+        }
+        .row-2 div img{
+          width: 100%;
+          height: 50vh;
+        }
+       
+  }
